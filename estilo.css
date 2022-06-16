@@ -1,0 +1,75 @@
+body {
+    background: #008787;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+.photo {
+    margin-bottom: 1px solid #d1ffee;
+    border-radius: 50%;
+    border: 3px solid #005e5e;
+    height: 290px;
+    width: 240px;
+    display: block;
+    margin: auto;
+}
+#title, .subtitle {
+    color: #b3ffe3;
+}
+#title {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: Courier;
+    text-align: center;
+}
+a {
+    text-decoration: underline;
+    color: #3fe1b0;
+}
+.post_title {
+    font-size: 16px;
+    font-style: italic; 
+    margin: 0;
+    margin-bottom: 15px;
+    color: #005e5e;
+}
+.post {
+    background: #e3fff3;
+    padding-left: 15px;
+    border: 3px solid #005e5e;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.post_content {
+    margin: 0;
+    margin: 15px 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.post_image {
+    display: block;
+    width: 100%;
+    margin: auto auto;
+    height: auto;
+    width: auto;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.emailicon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;   
+}
+.linkedinicon {
+    height: 40px;
+    width: 40px; 
+    border-radius: 10px;
+}
+.githubicon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+}
